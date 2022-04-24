@@ -16,6 +16,23 @@ def get_color_list(color):
     color_list = [color_code[0], color_code[1], color_code[2]]
     return color_list
 
+# anime ahegaos
+# https://i.imgur.com/Hu6lJyz.png cute red girl orgasming
+# https://i.imgur.com/SNjMKGA.png girl with mouth kept open
+# https://i.imgur.com/WLGXdUh.png astolfo with fingers in mouth
+# https://i.imgur.com/eenKXzo.png cute red girl with more extreme orgasm than the first one
+# https://i.imgur.com/8U5bL66.png extreme
+# https://i.imgur.com/RZ77eAs.png extreme
+# https://i.imgur.com/gyNJdKG.png VERY EXPLICIT
+
+# https://i.imgur.com/LpuOqM6.png real emo girl ahegao
+# https://i.imgur.com/77ZMxAI.png coffee ahegao girl
+# https://i.imgur.com/AK79vce.png extremely cute emo girl ahegao
+# https://i.imgur.com/XWBY2oS.png real vampire teeth girl ahegao
+# https://i.imgur.com/13F9rUf.png emo girl opening mouth with finger
+# https://i.imgur.com/TkLNxdy.png emo girl with hand thing
+# https://i.imgur.com/2Fk1E5w.png ahegao with glasses
+
 URL = "https://i.imgur.com/eenKXzo.png"
 response = requests.get(URL)
 img = Image.open(BytesIO(response.content))
